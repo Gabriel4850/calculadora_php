@@ -1,0 +1,76 @@
+body {
+    background-color: #fffde9;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+#h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: inline-block;
+    background-color: #ffd966;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px #f7a9a8;
+}
+
+#visor {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #eee;
+    padding: 10px;
+    font-size: 1.5em;
+    resize: none;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border: none;
+    border-radius: 15px;
+    background-color: #f4a261;
+    color: #000;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 2px 2px 0 #c66;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #e76f51;
+    box-shadow: 2px 2px 0 #a44;
+    transform: translateY(-2px);
+}
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(4, 60px); /* 4 colunas de 60px */
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.igual {
+    width: 60px !important;
+    height: 60px;
+    margin: 5px;
+    border: none;
+    border-radius: 15px;
+    background-color: #f4a261;
+    color: #000;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 2px 2px 0 #c66;
+    cursor: pointer;
+    transition: 0.2s;
+}
